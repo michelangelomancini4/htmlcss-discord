@@ -17,7 +17,8 @@ header {
 /* regole nav generali */
 #main-nav{
     display: flex;
-    justify-content: center;          
+    justify-content: center;  
+    justify-content: space-around;        
     
 }
 
@@ -33,7 +34,8 @@ header {
     /* regole figli nav */
 #lista-link{
         display: flex;
-        justify-content: space-around;     
+        justify-content: space-around;  
+        align-items: center;   
 }
 
 ul{
@@ -41,7 +43,7 @@ ul{
     color: white;
     display: flex; 
     gap: 25px; 
-    margin: 5px 100px;
+    /* margin: 0 100px; */
                 
 }
 button :hover {
