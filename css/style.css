@@ -32,9 +32,8 @@ header {
     }
     /* regole figli nav */
 #lista-link{
-        
-    justify-content: space-around;
-     
+        display: flex;
+        justify-content: space-around;     
 }
 
 ul{
@@ -42,7 +41,7 @@ ul{
     color: white;
     display: flex; 
     gap: 25px; 
-    margin: 0 100px;
+    margin: 5px 100px;
                 
 }
 button :hover {
