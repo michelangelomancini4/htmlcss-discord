@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
 }
 
@@ -32,8 +32,7 @@ header {
     }
     /* regole figli nav */
 #lista-link{
-    
-    
+        
     justify-content: space-around;
      
 }
@@ -82,7 +81,8 @@ button :hover {
  /* regole macrosezione 1 */
 #upper{
     background-image: url(./../img/jumbo.png);
-    background-size: 1600px;
+    background-size: 100%;
+    background-size: cover;
             
  }
 .jumbotron{
@@ -138,7 +138,7 @@ h1{
 /* regole wave */
 .wave{
     display: flex;
-    margin: 0;
+    
    }
 .wave img{
     width: 100%;               
