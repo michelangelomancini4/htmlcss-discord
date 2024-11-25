@@ -85,11 +85,10 @@ ul{
 .jumbotron{
     
     height: 550px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: nowrap; */
+    
 }
 .jumbotron section{
     
@@ -125,10 +124,7 @@ h1{
 }
 #upper div{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 80px;
-    
+    gap: 80px;    
     }
 
 #upper div :last-child{
@@ -163,15 +159,14 @@ h1{
 }
 
 .macrosezione2 div{
-    height: 80%;
     gap: 50px;
    }
    
 
 .macrosezione2 :first-child{
     
-    flex-basis: 45%;
-    height: 90%;
+    /* flex-basis: 45%;
+    height: 90%; */
 }
 .macrosezione2 :last-child {
     
@@ -191,8 +186,7 @@ h1{
 /* macrosezione3 */
  #inversa{    
         display: flex;
-        background-color: rgba(246,246,246,255)
-                       
+        background-color: rgba(246,246,246,255)                       
 }
 
 #inversa :last-child{
@@ -204,7 +198,6 @@ h1{
  #sezione5 {
     height: 800px;
     background-color:rgba(246,246,246,255) ;
-    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -217,7 +210,6 @@ h1{
     display: flex;  
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
     gap: 20%;  
  }
  #sezione5 h2{
@@ -231,21 +223,15 @@ h1{
 #domandafinale{
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    height: 200px;
-    background-color:rgba(246,246,246,255) ;
-             
-    
+    background-color:rgba(246,246,246,255) ;            
 }
 /* regole generali figli */
 #domandafinale div{
    
-
     font-size: 25px;    
     align-content: center; 
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
     
     }
     /* regole specifiche figli */
@@ -282,25 +268,29 @@ h1{
         align-items: center;
   }
   .sezione6 div{
-    height: 85%;
-    
+    height: 85%;    
     width: 13%;
-    
-    
-  }
-  .sezione6 :first-child{     
-    flex-basis: 22%; 
-      
-  } 
+    }
+   
+  /* minisezione 1 */
+  
   .sezione6 h3 {
     color: blueviolet;
+    font-size: 30px;
     margin-bottom: 20%;
   }
   .sezione6 select{
     background-color: black;
     color: white;
   }
-
+  /* regole icone social */
+  .icons {
+    color: white;
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+   }
+/* minisezione2 */
   .sezione6 ul {
     display: flex;
     flex-direction: column;
@@ -308,8 +298,7 @@ h1{
   }
   .sezione6 ul :first-child{
     color: blueviolet;
-  }
- 
+  } 
   
   
   /* fine-sezioni */
@@ -325,23 +314,20 @@ h1{
   /* footer */
   footer {
     background-color: #000000;
+    
   }
   #second-nav{
     display: flex;
     justify-content: center;
     height: 70px;  
-    align-items: flex-end; 
+    align-items:center; 
     
   }
   #second-nav div{
     
     flex-basis: 40%;
-    height: 40px;
     align-content: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;    
+           
    }
    #second-nav :first-child{
     align-items: flex-start;
@@ -360,4 +346,5 @@ h1{
   color: white; 
   border: 0px; 
   }
+  /* regole icone social */
    
