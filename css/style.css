@@ -1,0 +1,363 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* regole header */
+header {
+    background-color: rgba(37,94,233,255);
+    height: 60px;   
+        
+}
+/* regole nav generali */
+#main-nav{
+    display: flex;
+    justify-content: center;          
+    
+}
+
+#main-nav div{
+    height: 35px;
+    margin-top: 11px;
+    align-content: center; 
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    }
+    /* regole figli nav */
+#lista-link{
+    
+    
+    justify-content: space-around;
+     
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex; 
+    gap: 25px; 
+    margin: 0 100px;
+                
+}
+
+/* regole tasti laterali */
+.small-nav{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+        
+}
+.small-nav span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* tasto accedi */
+
+#accedi{    
+      align-items: flex-end;      
+}
+#accedi button{
+    width: 100px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: white;
+    color: black; 
+    border: 0px; 
+    }
+
+
+
+/* inizio regole main */
+
+ /* regole macrosezione 1 */
+#upper{
+    background-image: url(./../img/jumbo.png);
+    background-size: 1600px;
+            
+ }
+.jumbotron{
+    
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+.jumbotron section{
+    
+    color: white;
+    /* margin-top: 25px; */
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+/* regole titolo macrosezione 1 */
+h1{
+       font-size: 45px;
+}
+/* regole paragrafo macrosezione 1 */
+#upper p{
+     font-size: 16px;
+     margin: 7% 15%;
+     line-height: 25px;
+}
+/* regole bottoni macrosezione1 */
+#upper button{
+    width: 180px;
+    height: 55px;
+    border-radius: 9999px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    border: 0px;    
+
+}
+#upper div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 80px;
+    
+    }
+
+#upper div :last-child{
+    color: white;
+    background-color: rgb(10, 2, 2);
+    width: 230px;
+        
+}
+/* regole wave */
+.wave{
+    margin-bottom: 0;
+    display: flex; 
+}
+.wave img{
+    width: 100%;
+    height: 100%;
+          
+}
+#wave2 {
+    transform: rotate(180deg);
+}
+
+
+
+/* regole macrosezione 2 */
+.macrosezione2{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.macrosezione2 div{
+    height: 80%;
+    gap: 50px;
+   }
+   
+
+.macrosezione2 :first-child{
+    
+    flex-basis: 45%;
+    height: 90%;
+}
+.macrosezione2 :last-child {
+    
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;     
+}
+.macrosezione2 h2{
+    font-size: 50px;
+}
+.macrosezione2 p{
+
+    font-size: 17px;
+
+}
+/* macrosezione3 */
+ #inversa{    
+        display: flex;
+        background-color: rgba(246,246,246,255)
+                       
+}
+
+#inversa :last-child{
+    order: -1; 
+        
+}
+
+ /* macrosezione5 */
+ #sezione5 {
+    height: 800px;
+    background-color:rgba(246,246,246,255) ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+ }
+ #sezione5 div{
+    
+    height: 80%;
+    width: 75%;
+   
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 20%;  
+ }
+ #sezione5 h2{
+    font-size: 50px;
+ }
+ #sezione5 p{
+    margin: 0px 10%;
+ }
+ /* footer macrosez 5 */
+/* regole generali domanda finale */
+#domandafinale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 200px;
+    background-color:rgba(246,246,246,255) ;
+             
+    
+}
+/* regole generali figli */
+#domandafinale div{
+   
+
+    font-size: 25px;    
+    align-content: center; 
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    }
+    /* regole specifiche figli */
+.df{
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: row; 
+    margin-bottom: 30px;     
+        
+}
+.df span{
+     align-self: center; 
+     font-size: 30px; 
+            
+}
+.df button {
+    width: 180px;
+    height: 50px;
+    border-radius: 9999px;
+    background-color: rgb(115, 63, 246);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border: 0px; 
+}
+
+
+ /* macrosezione 6 */
+  .sezione6 {
+
+        background-color: #000000;
+        height: 650px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  .sezione6 div{
+    height: 85%;
+    
+    width: 13%;
+    
+    
+  }
+  .sezione6 :first-child{     
+    flex-basis: 22%; 
+      
+  } 
+  .sezione6 h3 {
+    color: blueviolet;
+    margin-bottom: 20%;
+  }
+  .sezione6 select{
+    background-color: black;
+    color: white;
+  }
+
+  .sezione6 ul {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .sezione6 ul :first-child{
+    color: blueviolet;
+  }
+ 
+  
+  
+  /* fine-sezioni */
+  hr {
+    height: 5px;
+    color: #000000;
+    background-color: rgb(171, 173, 171);
+    width: 70%;
+    margin: 0 15%;   
+    
+  }
+
+  /* footer */
+  footer {
+    background-color: #000000;
+  }
+  #second-nav{
+    display: flex;
+    justify-content: center;
+    height: 70px;  
+    align-items: flex-end; 
+    
+  }
+  #second-nav div{
+    
+    flex-basis: 40%;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+   }
+   #second-nav :first-child{
+    align-items: flex-start;
+         
+   }
+   /* regole elementi laterali */
+   
+   #accedi2 {    
+    align-items: flex-end;      
+}
+#accedi2 button{
+  width: 100px;
+  height: 40px;
+  border-radius: 9999px;
+  background-color: blueviolet;
+  color: white; 
+  border: 0px; 
+  }
+   
